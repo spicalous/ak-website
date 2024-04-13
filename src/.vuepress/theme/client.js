@@ -2,6 +2,7 @@ import { defineClientConfig } from 'vuepress/client'
 import Contact from './layouts/Contact.vue'
 import Home from './layouts/Home.vue'
 import NotFound from './layouts/NotFound.vue'
+import Project from './layouts/Project.vue'
 import './styles/index.css'
 
 export default defineClientConfig({
@@ -9,5 +10,6 @@ export default defineClientConfig({
     Contact,
     Home,
     NotFound,
+    Project,
   },
 })
