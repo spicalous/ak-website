@@ -16,7 +16,7 @@ const themeData = useThemeData()
         <ul class="navbar-nav ms-auto">
           <template v-for="item in themeData.nav" :key="item.text">
             <li class="nav-item">
-              <a class="nav-link" :class="{ active: pageData.path == item.link }" :href="item.link">{{item.text}}</a>
+              <a class="nav-link" :class="{ active: pageData.path == item.link }" :href="$withBase(item.link)">{{item.text}}</a>
             </li>
           </template>
         </ul>
