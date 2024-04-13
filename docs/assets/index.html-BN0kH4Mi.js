@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as n}from"./app-DXRxgkbb.js";const o={};function a(c,r){return n(),t("div")}const _=e(o,[["render",a],["__file","index.html.vue"]]),l=JSON.parse('{"path":"/","title":"","lang":"en-US","frontmatter":{"layout":"Home"},"headers":[]}');export{_ as comp,l as data};
