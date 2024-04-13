@@ -12,11 +12,11 @@ const site = useSiteData();
     <div class="row">
       <div class="col-12 col-md-6 position-relative pt-4">
         <span class="position-absolute top-50 start-50 translate-middle h1 text-white">Project 1</span>
-        <image class="img-fluid" src="/home-1.png"/>
+        <image class="img-fluid" :src="$withBase('/home-1.png')"/>
       </div>
       <div class="col-12 col-md-6 position-relative pt-4">
         <span class="position-absolute top-50 start-50 translate-middle h1 text-white">Project 2</span>
-        <image class="img-fluid" src="/home-2.png"/>
+        <image class="img-fluid" :src="$withBase('/home-2.png')"/>
       </div>
     </div>
     <div class="row pt-4">

@@ -1,0 +1,1 @@
+import{_ as t,c,o as e}from"./app-B2RkZys-.js";const a={};function n(o,r){return e(),c("div")}const _=t(a,[["render",n],["__file","contact.html.vue"]]),l=JSON.parse('{"path":"/contact","title":"","lang":"en-US","frontmatter":{"layout":"Contact","permalink":"/contact"},"headers":[]}');export{_ as comp,l as data};
